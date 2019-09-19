@@ -1,0 +1,275 @@
+body {background-color: #dfe6e6;}
+
+a.bcc{
+    padding: 5px 10px;
+    background: #e8b899;
+    border: 5px double #575d2a;
+    color: #575d2a;
+    font-size: 24px;
+    text-decoration: none;
+    -webkit-tansition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a.bcc:hover,
+a.bcc:focus {
+    background: #a5725c;
+    border: 5px dotted #2e381d;
+    color: #2e381d;
+}
+
+.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {opacity: 1}
+
+  
+  
+
+  .button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    -webkit-tansition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .btn4{
+    border-radius: 4px;
+    background-color: #537d91;
+    border: none;
+    color: #a4d1c8;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn4:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn4:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .btn5 {
+    position: relative;
+    background-color: #f77754;
+    border: none;
+    font-size: 28px;
+    color: #584b42;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn5:after {
+    content: "";
+    background: rgb(236, 185, 225);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    
+  }
+  
+  .btn5:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .btn5:hover span {
+    padding-right: 25px;
+  }
+
+.btn6 {
+  position: relative; 
+  font-size: 28px;
+  width: 83px;
+  height: 83px;
+  background-color: #a5725c;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:#f4511e;}
+  25%  {background-color: #f77754;}
+  50%  {background-color:#90EE90;}
+  100% {background-color: #a4d1c8;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: #f4511e;}
+  25%  {background-color: #f77754;}
+  50%  {background-color: #90ee90;}
+  100% {background-color: #a4d1c8;}
+}
+
+  .carousel-inner{
+    margin: 5px;
+    border: 10px solid #ccc;
+    float: left;
+width: 80%;
+    
+  height: 40%;
+  padding: 10px 20px #ccc;
+  position: relative;
+  
+
+  }
+  *:hover {
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    
+  }
+
+  header { 
+    display:block;
+    margin: 20px 10px 80px 10px; }
+   
+   ol#pics li{
+   
+       position: relative;
+       float: left;
+       margin: 0 15px 0 0;
+       padding:10px;
+       background: #444; 
+       background: rgba(255,255,255, 0.1);
+       list-style: none;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       -o-border-radius: 4px;
+       border-radius: 4px;
+       border-radius: 4px;
+   }
+   
+   
+   ol#pics li a {
+   float: left;
+   width: 137px;
+   height: 91px;
+   background: url(img/bg.gif);
+   no-repeat: top left;
+   }
+   
+   /* we will also add a transition stack with the all value
+   so all the transforms that we use will be smoothed and 
+   transitioned. */
+   
+   ol#pics li a image{
+       position: absolute;
+       -webkit-transition: all 0.2s ease-in;
+       -moz-transition: all 0.2s ease-in;
+       -o-transition: all 0.2s ease-in;
+       transition: all 0.2s ease-in;
+   }
+   
+   /* we will position each item a little bit different, 
+   although we will use position: absolute for all images
+   so we don't have to duplicate the rule for each of them. */
+   
+   ol#pics li#photo-1 a img {
+       width: 200%;
+       top: 29px;
+       left: 30px;
+   }
+   ol#pics li#photo-2 a img {
+       width: 200%;
+       top: 25px;
+       left: 25px;
+   }
+   ol#pics li#photo-3 a img {
+       width: 200%;
+       top: 10px;
+       left: 05px;
+   }
+   
